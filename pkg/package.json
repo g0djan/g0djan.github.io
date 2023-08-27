@@ -1,0 +1,23 @@
+{
+  "name": "g0djan-github-io",
+  "collaborators": [
+    "Georgii Rylov <g0dj4n@gmail.com>"
+  ],
+  "description": "A sample project with wasm-pack",
+  "version": "0.1.0",
+  "license": "MIT/Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/g0djan/g0djan.github.io"
+  },
+  "files": [
+    "g0djan_github_io_bg.wasm",
+    "g0djan_github_io.js",
+    "g0djan_github_io.d.ts"
+  ],
+  "module": "g0djan_github_io.js",
+  "types": "g0djan_github_io.d.ts",
+  "sideEffects": [
+    "./snippets/*"
+  ]
+}
